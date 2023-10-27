@@ -1,0 +1,92 @@
+body {
+  background-color: aquamarine;
+}
+.heading {
+  font-size: 40px;
+  margin-right: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.child-first {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 20vw;
+}
+.add-btn {
+  border-radius: 20px;
+  padding: 10px;
+  color: rgb(75, 30, 239);
+  background-color: rgb(211, 237, 39);
+  border: none;
+}
+.save-btn {
+  border-radius: 20px;
+  padding: 10px;
+  color: #000;
+  background-color: chartreuse;
+  border: none;
+}
+.all-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.input-toggle {
+  gap: 1rem;
+}
+.h3 {
+  background-color: darkturquoise;
+  width: 38vw;
+  height: 5vh;
+  border-radius: 10px;
+}
+.two-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: red;
+}
+.delete {
+  padding: 10px;
+  background-color: #000;
+  border-radius: 10px;
+}
+.edit {
+  padding: 10px;
+  background-color: #000;
+  border-radius: 10px;
+}
+.edit:hover {
+  background-color: burlywood;
+}
+.delete:hover {
+  background-color: burlywood;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.clear-btn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #eeb6b6;
+  color: red;
+  border: none;
+}
+.clear-btn:hover {
+  background-color: #000;
+  color: red;
+}
